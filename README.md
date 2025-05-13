@@ -19,7 +19,7 @@ This repository provides two methods to deploy a Flask application to a local Ku
 │ ├── variables.tf
 │ └── terraform.tfvars
 ├── deploy_with_k8s.sh # Bash script to deploy using Kubernetes YAML
-├── deploy.sh # Bash script to deploy using Terraform
+├── deploy_with_tf.sh # Bash script to deploy using Terraform
 └── README.md
 ```
 
@@ -59,7 +59,7 @@ Start Minikube
 
 ```bash
 minikube start
-./deploy.sh
+./deploy_with_tf.sh
 ```
 
 ### 🧹 Clean Up
