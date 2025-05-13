@@ -60,14 +60,9 @@ Start Minikube
 
 ```bash
 minikube start
-```
-Build the Docker image in Minikube
-
-This is done automatically by the deploy script.
-
-Run the Terraform deployment
-
 ./deploy.sh
+```
+
 This script will:
 
 Switch to Minikube's Docker daemon
@@ -81,11 +76,9 @@ Open the service in your browser
 🧹 Clean Up
 To remove all resources created by Terraform:
 
-bash
-Copy
-Edit
 cd terraform
 terraform destroy -auto-approve
+
 🧾 Notes
 The image flask-k8s-app:latest is built locally inside Minikube, so no imagePull is necessary.
 
