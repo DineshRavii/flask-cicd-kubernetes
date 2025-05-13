@@ -8,7 +8,7 @@ This repository provides two methods to deploy a Flask application to a local Ku
 ---
 
 ## 📁 Project Structure
-
+```bash
 ├── app/ # Flask app source code
 ├── k8s/ # Kubernetes YAML manifests
 │ ├── deployment.yaml
@@ -21,7 +21,7 @@ This repository provides two methods to deploy a Flask application to a local Ku
 ├── deploy_with_k8s.sh # Bash script to deploy using Kubernetes YAML
 ├── deploy.sh # Bash script to deploy using Terraform
 └── README.md
-
+```
 
 ---
 
@@ -29,7 +29,6 @@ This repository provides two methods to deploy a Flask application to a local Ku
 
 - [Docker](https://www.docker.com/)
 - [Minikube](https://minikube.sigs.k8s.io/docs/)
-- [kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)
 
 ---
