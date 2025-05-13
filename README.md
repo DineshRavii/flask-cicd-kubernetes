@@ -47,27 +47,26 @@ This method uses raw Kubernetes YAML files (`deployment.yaml`, `service.yaml`) t
 ```bash
 minikube start
 ./deploy_with_k8s.sh
+```
 
-⚙️ Method 2: Deploy with Terraform
-📜 Description
+## ⚙️ Method 2: Deploy with Terraform
+
+### 📜 Description
+
 This method uses Terraform to define and deploy Kubernetes resources.
 
-🔧 Steps
+### 🔧 Steps
 Start Minikube
 
-bash
-Copy
-Edit
+```bash
 minikube start
+```
 Build the Docker image in Minikube
 
 This is done automatically by the deploy script.
 
 Run the Terraform deployment
 
-bash
-Copy
-Edit
 ./deploy.sh
 This script will:
 
